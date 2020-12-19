@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/inzightserver)](https://CRAN.R-project.org/package=inzightserver)
 <!-- badges: end -->
 
-The goal of inzightserver is to ...
+This is a proof-of-concept package (which may develop into the 'real deal') for running a server ([Rserve](https://cran.r-project.org/package=Rserve)) providing a simple state-based API for a new iNZight app.
 
 ## Installation
 
@@ -30,6 +30,7 @@ You can install the released version of inzightserver from [CRAN](https://CRAN.R
 install.packages("inzightserver")
 ```
 
+<!--
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
@@ -54,3 +55,5 @@ plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+-->
+
