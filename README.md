@@ -1,32 +1,27 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # inzightserver
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/inzightserver)](https://CRAN.R-project.org/package=inzightserver)
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/inzightserver)](https://CRAN.R-project.org/package=inzightserver)
 <!-- badges: end -->
 
-This is a proof-of-concept package (which may develop into the 'real deal') for running a server ([Rserve](https://cran.r-project.org/package=Rserve)) providing a simple state-based API for a new iNZight app.
+This is a proof-of-concept package (which may develop into the ‘real
+deal’) for running a server
+([Rserve](https://cran.r-project.org/package=Rserve)) providing a simple
+state-based API for a new iNZight app.
 
 ## Installation
 
-You can install the released version of inzightserver from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of inzightserver from
+[CRAN](https://CRAN.R-project.org) with:
 
-```{r,eval=FALSE}
+``` r
 install.packages("inzightserver")
 ```
 
@@ -35,14 +30,16 @@ install.packages("inzightserver")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example, eval=FALSE}
+
+```r
 library(inzightserver)
 ## basic example code
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-```{r cars, eval=FALSE}
+
+```r
 summary(cars)
 ```
 
@@ -50,10 +47,7 @@ You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-da
 
 You can also embed plots, for example:
 
-```{r pressure, echo = FALSE, eval=FALSE}
-plot(pressure)
-```
+
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
 -->
-
